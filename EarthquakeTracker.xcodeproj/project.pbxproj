@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		339134B6275A470600D04E9D /* EarthquakeTrackerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339134B5275A470600D04E9D /* EarthquakeTrackerApp.swift */; };
+		339134B8275A470600D04E9D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339134B7275A470600D04E9D /* ContentView.swift */; };
+		339134BA275A471200D04E9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339134B9275A471200D04E9D /* Assets.xcassets */; };
+		339134BD275A471200D04E9D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 339134BC275A471200D04E9D /* Preview Assets.xcassets */; };
+		339134BF275A471200D04E9D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339134BE275A471200D04E9D /* Persistence.swift */; };
+		339134C2275A471200D04E9D /* EarthquakeTracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 339134C0275A471200D04E9D /* EarthquakeTracker.xcdatamodeld */; };
+		339134CA275A520900D04E9D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339134C9275A520900D04E9D /* DetailView.swift */; };
+		339134CF275A526400D04E9D /* EarthquakeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339134CE275A526400D04E9D /* EarthquakeViewModel.swift */; };
+		339134D2275A538600D04E9D /* EarthquakeEntityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339134D1275A538600D04E9D /* EarthquakeEntityModel.swift */; };
+		339134D4275A591100D04E9D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339134D3275A591100D04E9D /* LocationManager.swift */; };
+		339134D6275A5D4700D04E9D /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339134D5275A5D4700D04E9D /* CoreDataManager.swift */; };
+		339134D8275A61E000D04E9D /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 339134D7275A61E000D04E9D /* APIManager.swift */; };
+		855AE624DE5F8459EFA37601 /* Pods_EarthquakeTracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70BF8D5BF9EF8C10E07670EA /* Pods_EarthquakeTracker.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B4BD11303BB83ADA7304549 /* Pods-EarthquakeTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarthquakeTracker.release.xcconfig"; path = "Target Support Files/Pods-EarthquakeTracker/Pods-EarthquakeTracker.release.xcconfig"; sourceTree = "<group>"; };
+		339134B2275A470600D04E9D /* EarthquakeTracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EarthquakeTracker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		339134B5275A470600D04E9D /* EarthquakeTrackerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakeTrackerApp.swift; sourceTree = "<group>"; };
+		339134B7275A470600D04E9D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		339134B9275A471200D04E9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		339134BC275A471200D04E9D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		339134BE275A471200D04E9D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		339134C1275A471200D04E9D /* EarthquakeTracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EarthquakeTracker.xcdatamodel; sourceTree = "<group>"; };
+		339134C9275A520900D04E9D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		339134CE275A526400D04E9D /* EarthquakeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakeViewModel.swift; sourceTree = "<group>"; };
+		339134D1275A538600D04E9D /* EarthquakeEntityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthquakeEntityModel.swift; sourceTree = "<group>"; };
+		339134D3275A591100D04E9D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		339134D5275A5D4700D04E9D /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		339134D7275A61E000D04E9D /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		339134D9275A64A900D04E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		70BF8D5BF9EF8C10E07670EA /* Pods_EarthquakeTracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EarthquakeTracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C788D3F92599044C77B044B5 /* Pods-EarthquakeTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EarthquakeTracker.debug.xcconfig"; path = "Target Support Files/Pods-EarthquakeTracker/Pods-EarthquakeTracker.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		339134AF275A470600D04E9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855AE624DE5F8459EFA37601 /* Pods_EarthquakeTracker.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1149F117C1C327D3D4B076E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C788D3F92599044C77B044B5 /* Pods-EarthquakeTracker.debug.xcconfig */,
+				1B4BD11303BB83ADA7304549 /* Pods-EarthquakeTracker.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		339134A9275A470600D04E9D = {
+			isa = PBXGroup;
+			children = (
+				339134B4275A470600D04E9D /* EarthquakeTracker */,
+				339134B3275A470600D04E9D /* Products */,
+				1149F117C1C327D3D4B076E2 /* Pods */,
+				DA0B97126D64D1F395CBB3AB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		339134B3275A470600D04E9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				339134B2275A470600D04E9D /* EarthquakeTracker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		339134B4275A470600D04E9D /* EarthquakeTracker */ = {
+			isa = PBXGroup;
+			children = (
+				339134D9275A64A900D04E9D /* Info.plist */,
+				339134B5275A470600D04E9D /* EarthquakeTrackerApp.swift */,
+				339134D0275A528500D04E9D /* ViewModel */,
+				339134CB275A522C00D04E9D /* Model */,
+				339134C8275A51E600D04E9D /* View */,
+				339134B9275A471200D04E9D /* Assets.xcassets */,
+				339134BE275A471200D04E9D /* Persistence.swift */,
+				339134C0275A471200D04E9D /* EarthquakeTracker.xcdatamodeld */,
+				339134BB275A471200D04E9D /* Preview Content */,
+			);
+			path = EarthquakeTracker;
+			sourceTree = "<group>";
+		};
+		339134BB275A471200D04E9D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				339134BC275A471200D04E9D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		339134C8275A51E600D04E9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				339134B7275A470600D04E9D /* ContentView.swift */,
+				339134C9275A520900D04E9D /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		339134CB275A522C00D04E9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				339134D3275A591100D04E9D /* LocationManager.swift */,
+				339134D7275A61E000D04E9D /* APIManager.swift */,
+				339134D5275A5D4700D04E9D /* CoreDataManager.swift */,
+				339134D1275A538600D04E9D /* EarthquakeEntityModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		339134D0275A528500D04E9D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				339134CE275A526400D04E9D /* EarthquakeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DA0B97126D64D1F395CBB3AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70BF8D5BF9EF8C10E07670EA /* Pods_EarthquakeTracker.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		339134B1275A470600D04E9D /* EarthquakeTracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 339134C5275A471200D04E9D /* Build configuration list for PBXNativeTarget "EarthquakeTracker" */;
+			buildPhases = (
+				293A486ADD0545C4B8841C01 /* [CP] Check Pods Manifest.lock */,
+				339134AE275A470600D04E9D /* Sources */,
+				339134AF275A470600D04E9D /* Frameworks */,
+				339134B0275A470600D04E9D /* Resources */,
+				2C93C9D63A6139EA7708FDB3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EarthquakeTracker;
+			productName = EarthquakeTracker;
+			productReference = 339134B2275A470600D04E9D /* EarthquakeTracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		339134AA275A470600D04E9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					339134B1275A470600D04E9D = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 339134AD275A470600D04E9D /* Build configuration list for PBXProject "EarthquakeTracker" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 339134A9275A470600D04E9D;
+			productRefGroup = 339134B3275A470600D04E9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				339134B1275A470600D04E9D /* EarthquakeTracker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		339134B0275A470600D04E9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339134BD275A471200D04E9D /* Preview Assets.xcassets in Resources */,
+				339134BA275A471200D04E9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		293A486ADD0545C4B8841C01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EarthquakeTracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2C93C9D63A6139EA7708FDB3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EarthquakeTracker/Pods-EarthquakeTracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EarthquakeTracker/Pods-EarthquakeTracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EarthquakeTracker/Pods-EarthquakeTracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		339134AE275A470600D04E9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				339134BF275A471200D04E9D /* Persistence.swift in Sources */,
+				339134CA275A520900D04E9D /* DetailView.swift in Sources */,
+				339134CF275A526400D04E9D /* EarthquakeViewModel.swift in Sources */,
+				339134D8275A61E000D04E9D /* APIManager.swift in Sources */,
+				339134C2275A471200D04E9D /* EarthquakeTracker.xcdatamodeld in Sources */,
+				339134B8275A470600D04E9D /* ContentView.swift in Sources */,
+				339134B6275A470600D04E9D /* EarthquakeTrackerApp.swift in Sources */,
+				339134D2275A538600D04E9D /* EarthquakeEntityModel.swift in Sources */,
+				339134D6275A5D4700D04E9D /* CoreDataManager.swift in Sources */,
+				339134D4275A591100D04E9D /* LocationManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		339134C3275A471200D04E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		339134C4275A471200D04E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		339134C6275A471200D04E9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C788D3F92599044C77B044B5 /* Pods-EarthquakeTracker.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EarthquakeTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = B4YVHSUJG8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EarthquakeTracker/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow to get your location to show the nearest earthquakes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Anastasia-Bespalova.EarthquakeTracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		339134C7275A471200D04E9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B4BD11303BB83ADA7304549 /* Pods-EarthquakeTracker.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EarthquakeTracker/Preview Content\"";
+				DEVELOPMENT_TEAM = B4YVHSUJG8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = EarthquakeTracker/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Please allow to get your location to show the nearest earthquakes";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Anastasia-Bespalova.EarthquakeTracker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		339134AD275A470600D04E9D /* Build configuration list for PBXProject "EarthquakeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339134C3275A471200D04E9D /* Debug */,
+				339134C4275A471200D04E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		339134C5275A471200D04E9D /* Build configuration list for PBXNativeTarget "EarthquakeTracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				339134C6275A471200D04E9D /* Debug */,
+				339134C7275A471200D04E9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		339134C0275A471200D04E9D /* EarthquakeTracker.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				339134C1275A471200D04E9D /* EarthquakeTracker.xcdatamodel */,
+			);
+			currentVersion = 339134C1275A471200D04E9D /* EarthquakeTracker.xcdatamodel */;
+			path = EarthquakeTracker.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 339134AA275A470600D04E9D /* Project object */;
+}
