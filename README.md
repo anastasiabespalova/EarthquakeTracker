@@ -12,10 +12,6 @@ An application for tracking earthquakes in a radius of 2500 km from the user's l
 
 ## Screenshots
 <img src="https://github.com/anastasiabespalova/EarthquakeTracker/blob/master/Screenshots/IMG_0451.PNG" width=250>
-
-
-![Main page](https://github.com/anastasiabespalova/EarthquakeTracker/blob/master/Screenshots/IMG_0451.PNG | width=250)
-![Main page](https://github.com/anastasiabespalova/EarthquakeTracker/blob/master/Screenshots/IMG_0452.PNG | width=250)
-![Details page](https://github.com/anastasiabespalova/EarthquakeTracker/blob/master/Screenshots/IMG_0453.PNG | width=250)
-
+<img src="https://github.com/anastasiabespalova/EarthquakeTracker/blob/master/Screenshots/IMG_0452.PNG" width=250>
+<img src="https://github.com/anastasiabespalova/EarthquakeTracker/blob/master/Screenshots/IMG_0453.PNG" width=250>
 
